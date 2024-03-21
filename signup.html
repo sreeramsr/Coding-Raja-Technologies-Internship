@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        .formr{
+    background-color: rgba(43, 43, 43, 0.623);
+    color: white;
+    width: 450px;
+    height: 450px;
+    margin-left: 450px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 1px;
+    padding-left: 1px;
+    border-radius:20px 20px 20px 20px;
+    position: relative;
+    
+    
+
+}
+    </style>
+    
+    <script>
+        function popoff(){
+            alert("SUCCESS")
+        }
+    </script>
+   
+    
+</head>
+<body>
+   
+    <div class="formr">
+        
+        <form action="menu.html">
+            <h1 style="text-decoration: underline;">Sign up</h1>
+            <label for="username">Username:</label> <input type="text"required>
+            
+            <br>
+            <label for="phone">phone.no:</label> <input type="number" name="" id=""required>
+            <br>
+            <label for="gender">gender:</label> <input type="radio" name="gen" id="">Male  <input type="radio" name="gen" id="">female
+            <br>
+            <label for="password">password:</label> <input type="password" name="newpass" id=""required>
+            <br>
+            
+            <input type="submit" value="sign up" onclick="popoff()" style="color: rgb(48, 34, 34);cursor: pointer;font-family: 'Times New Roman', Times, serif;font-size: 18px;" >
+        
+
+        </form>
+    </div>
+   
+</body>
+</html>
